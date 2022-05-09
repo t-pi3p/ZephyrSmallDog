@@ -1,0 +1,9 @@
+# Copyright (c) 2022 Tobias Piep
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_NODEMCU_ESP_32S_KIT
+
+config BOARD
+	default "nodemcu_esp_32s_kit"
+
+endif # BOARD_NODEMCU_ESP_32S_KIT

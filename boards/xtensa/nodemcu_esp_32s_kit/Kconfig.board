@@ -1,0 +1,6 @@
+# Copyright (c) 2022 Tobias Piep
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_NODEMCU_ESP_32S_KIT
+	bool "NodeMCU ESP32S Kit"
+	depends on SOC_ESP32

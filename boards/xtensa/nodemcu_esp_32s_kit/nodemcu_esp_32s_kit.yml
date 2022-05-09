@@ -1,0 +1,15 @@
+# Copyright (c) 2022 Tobias Piep
+# SPDX-License-Identifier: Apache-2.0
+
+identifier: nodemcu_esp_32s_kit
+name: NodeMCU ESP32 Kit
+type: mcu
+arch: xtensa
+toolchain:
+  - espressif
+supported:
+  - gpio
+  - watchdog
+  - uart
+  - pinmux
+  - nvs

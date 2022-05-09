@@ -1,0 +1,7 @@
+menu "Zephyr"
+source "Kconfig.zephyr"
+endmenu
+
+module = ZEPHYR-SMALL-DOG
+module-str = Zephyr Small Dog
+source "subsys/logging/Kconfig.template.log_config"
